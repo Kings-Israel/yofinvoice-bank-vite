@@ -1,0 +1,101 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "icon": "menu-icon tf-icons ti ti-smart-home",
+      "slug": "dashboard"
+    },
+    {
+      "name": "Portfolio Management",
+      "icon": "menu-icon tf-icons ti ti-layout-sidebar",
+      "slug": "requests",
+      "submenu": [
+        {
+          "url": "requests-reverse-factoring",
+          "name": "Vendor Financing",
+          "slug": "requests-reverse-factoring"
+        },
+        {
+          "url": "requests-factoring",
+          "name": "Factoring",
+          "slug": "requests-factoring"
+        },
+        {
+          "url": "requests-factoring",
+          "name": "Dealer Financing",
+          "slug": "requests-factoring"
+        }
+      ]
+    },
+    {
+      "name": "Companies",
+      "icon": "menu-icon tf-icons ti ti-book-2",
+      "slug": "companies",
+      "submenu": [
+        {
+          "url": "companies.index",
+          "name": "Companies",
+          "slug": "companies.index"
+        },
+        {
+          "url": "companies.create",
+          "name": "Create Company",
+          "slug": "companies.create"
+        }
+      ]
+    },
+    {
+      "url": "payment-requests",
+      "name": "Payment Requests",
+      "icon": "menu-icon tf-icons ti ti-truck",
+      "slug": "payment-requests"
+    },
+    {
+      "url": "programs.index",
+      "name": "Programs",
+      "icon": "menu-icon tf-icons ti ti-truck",
+      "slug": "programs.index"
+    },
+    {
+      "name": "Reports",
+      "icon": "menu-icon tf-icons ti ti-file-dollar",
+      "slug": "reports",
+      "submenu": [
+        {
+          "url": "reports.index",
+          "name": "All Reports",
+          "slug": "reports.index"
+        },
+        {
+          "url": "reports.ledger",
+          "name": "Ledger Reports",
+          "slug": "reports.ledger"
+        }
+      ]
+    },
+    {
+      "name": "Configurations",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "configurations",
+      "submenu": [
+        {
+          "url": "configurations.index",
+          "name": "Configurations",
+          "slug": "configurations.index"
+        },
+        {
+          "url": "configurations.base-rates",
+          "name": "Base Rate",
+          "slug": "configurations.base-rates"
+        }
+      ]
+    },
+    {
+      "url": "configrations.pending",
+      "name": "Pending Configurations Approval",
+      "icon": "menu-icon tf-icons ti ti-settings",
+      "slug": "configurations-approval"
+    }
+  ]
+}
